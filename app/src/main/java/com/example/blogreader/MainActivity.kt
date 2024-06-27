@@ -27,14 +27,10 @@ class MainActivity : AppCompatActivity() {
         val blogger8 = Blogger("Terry", "The Pearl", "March 2023", "The pearl is a testament to the transformative power of love, education, and determination.")
         val blogger9 = Blogger("Alicia", "Born A crime", "June 2020", "The pearl is a testament to the transformative power of love, education, and determination.")
         val blogger10 = Blogger("Anna", "The Pearl", "May 2020", "The pearl is a testament to the transformative power of love, education, and determination.")
-        val blogger11 = Blogger("Mark", "The Pearl", "January 2020", "The pearl is a testament to the transformative power of love, education, and determination.")
-        val blogger12 = Blogger("Joe", "The Pearl", "May 2020", "The pearl is a testament to the transformative power of love, education, and determination.")
-        val blogger13 = Blogger("James", "Sunshine", "March 2020", "The pearl is a testament to the transformative power of love, education, and determination.")
-        val blogger14 = Blogger("Alice", "Before", "April 2020", "The pearl is a testament to the transformative power of love, education, and determination.")
-        val blogger15 = Blogger("Job", "The Pearl", "January2020", "The pearl is a testament to the transformative power of love, education, and determination.")
+
 
         val bloggerList = listOf(blogger1, blogger2, blogger3,blogger6, blogger7, blogger8, blogger9,
-            blogger10, blogger11, blogger12,blogger13, blogger14, blogger15)
+            blogger10)
         val bloggerAdapter = BlogAdapter(bloggerList)
         binding.rvBlogger.adapter = BlogAdapter
     }
